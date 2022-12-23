@@ -1,5 +1,5 @@
 import './index.scss'
-import Logos from '../../assets/images/logo-h.png'
+import Logos from '../../assets/images/logo-s.png'
 import LogoSubtitle from '../../assets/images/logo_sub.png'
 import { Link, NavLink } from 'react-router-dom'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
@@ -8,8 +8,8 @@ import { faGithub, faHashnode, faInstagram, faLinkedin, faTwitter } from '@forta
 const Sidebar = () => (
     <div className="Nav-Bar">
         <Link className="logo" to='/'>
-            <img className='letter' src={Logos} alt="logo" /> 
-            <img className='sub-logo' src={LogoSubtitle} alt="logo" /> 
+            <img src={Logos} alt="logo" /> 
+            <img className='sub-logo' src={LogoSubtitle} alt="Himanshu" /> 
         </Link>
 
         <nav>
