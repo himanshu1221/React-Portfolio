@@ -5,6 +5,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faAngular, faCss3, faGitAlt, faHtml5, faJsSquare, faReact } from '@fortawesome/free-brands-svg-icons'
 
 
+
 const About = () => {
     const [letterClass, setLetterClass] = useState('text-animate')
     useEffect(()=>{
@@ -17,12 +18,12 @@ const About = () => {
         <div className="contianer about-page">
             <div className="text-zone">
             <h1>
-            <AnimatedLetters
-              letterClass={letterClass}
-              strArray={['A', 'b', 'o', 'u', 't', ' ', 'm', 'e']}
-              idx={15}
-            />
-          </h1>
+                <AnimatedLetters
+                letterClass={letterClass}
+                strArray={['A', 'b', 'o', 'u', 't', ' ', 'm', 'e']}
+                idx={15}
+                />
+            </h1>
                 <p>
                 Hi guys 👋
                 I am Himanshu chhatwal . I am a student of btech cse . I have a keen intrest in learning as well as practising Java , python , AI , JavaScript . my major interest currently is to learn WEB3 and explore the blockchain world as it fascinates me a lot</p>
