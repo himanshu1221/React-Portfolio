@@ -8,29 +8,25 @@ import './index.scss'
 
 const Contact = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
-  const reform = useRef()
-
   useEffect(() => {
     setTimeout(() => {
       setLetterClass('text-animate-hover')
     }, 3000)
   }, [])
+  
+  
+  const form = useRef();
 
   const sendEmail = (e) => {
-    e.preventDefault()
+    e.preventDefault();
 
-    emailjs
-      .sendForm('gmail', 'template_ovg5juq', reform.current, 'fmHjXNWJxyJH0jA7z')
-      .then(
-        () => {
-          alert('Message successfully sent!')
-          window.location.reload(false)
-        },
-        () => {
-          alert('Failed to send the message, please try again')
-        }
-      )
-  }
+    emailjs.sendForm('service_pmdve36', 'template_ityqnap', form.current, 'fmHjXNWJxyJH0jA7z')
+      .then(() => {
+          alert('Message Sent Succesfully');
+      }, () => {
+          alert("Failed to send please try again");
+      });
+  };
 
   return (
     <>
@@ -49,7 +45,7 @@ const Contact = () => {
             questions, don't hesitate to contact me using below form either.
           </p>
           <div className="contact-form">
-            <form ref={reform} onSubmit={sendEmail}>
+            <form ref={form} onSubmit={sendEmail}>
               <ul>
                 <li className="half">
                   <input placeholder="Name" type="text" name="name" required />
@@ -91,7 +87,7 @@ const Contact = () => {
           <br/>
           Noida,UP
           <br/>
-          <span>Himanshuchhatwal9295@gmail.com</span>
+          <span>Himanshuchhatw03@gmail.com</span>
         </div>
         <div className="map-wrap">
           <MapContainer center={[28.5779959,77.343917]} zoom={13}>

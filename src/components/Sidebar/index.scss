@@ -92,6 +92,11 @@
                 color: #ffd700;
             }
         }
+        a.project-link{
+            &:after{
+                content: "projects";
+            }
+        }
     }
     ul{
         position: absolute;
