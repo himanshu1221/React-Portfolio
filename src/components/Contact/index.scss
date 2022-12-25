@@ -1,6 +1,6 @@
 .contact-form{
     width: 100%;
-    margin-top: 20px;
+    margin-top: 22px;
 
     ul{
         padding: 0;
@@ -70,9 +70,9 @@
 .info-map{
     position: absolute;
     background-color: black;
-    top: 50px;
-    right: 30%;
-    z-index: 99999;
+    top: 32.8vw;
+    right: 0;
+    z-index: 1;
     width: 267px;
     padding: 20px;
     color: #fff;
@@ -114,4 +114,8 @@
     .info-map span{
         word-wrap: break-word;
     }
+}
+
+.text-zone{
+    margin-top: 20px;
 }
