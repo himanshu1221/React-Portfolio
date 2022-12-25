@@ -1,12 +1,10 @@
 .stage-cube-cont{
     width: 50%;
     height: 100%;
-    top: 0;
-    padding: 18%;
+    top: 15.5vw;
     margin-left: 0;
     position: absolute;
     right: 0;
-    overflow: hidden;
 }
 
 .cubespinner{
@@ -77,4 +75,10 @@
     83%{
         transform: rotateX(90deg);
     }
+}
+
+@media screen and (max-width:650px) {
+  .text-zone{
+    padding-left: 10vw;
+  }
 }

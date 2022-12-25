@@ -18,19 +18,22 @@ const About = () => {
         <>
         <div className="contianer about-page">
             <div className="text-zone">
-            <h1>
-                <AnimatedLetters
-                letterClass={letterClass}
-                strArray={['A', 'b', 'o', 'u', 't', ' ', 'm', 'e']}
-                idx={15}
-                />
-            </h1>
-                <p>
-                Hi guys 👋
-                I am Himanshu chhatwal . I am a student of btech cse . I have a keen intrest in learning as well as practising Java , python , AI , JavaScript . my major interest currently is to learn WEB3 and explore the blockchain world as it fascinates me a lot</p>
-                <p> I am a person who is always eager to learn about the new technology and adapt them as quick as possible.</p>
-                <p>I did an internship at immersephere as a web developer also contributed in open source . I look Forward to learn more and I am open to internships and projects related to my field....
-                </p>
+                <h1>
+                    <AnimatedLetters
+                    letterClass={letterClass}
+                    strArray={['A', 'b', 'o', 'u', 't', ' ', 'm', 'e']}
+                    idx={15}
+                    />
+                </h1>
+                    <p>
+                    Hi guys 👋
+                    I am Himanshu chhatwal . I am a student of btech cse . I have a keen intrest in learning as well as practising Java , python , AI , JavaScript . my major interest currently is to learn WEB3 and explore the blockchain world as it fascinates me a lot
+                    </p>
+                    <p> 
+                    I am a person who is always eager to learn about the new technology and adapt them as quick as possible.
+                    </p>
+                    <p>I did an internship at immersephere as a web developer also contributed in open source . I look Forward to learn more and I am open to internships and projects related to my field....
+                    </p>
             </div>
 
             <div className="stage-cube-cont">
