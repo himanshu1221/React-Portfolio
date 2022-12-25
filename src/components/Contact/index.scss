@@ -106,3 +106,12 @@
     animation: backInRight 1s 1.2s;
     animation-fill-mode: forwards;
 }
+
+@media screen and (max-width:1240px){
+    .info-map{
+        width: 10%;
+    }
+    .info-map span{
+        word-wrap: break-word;
+    }
+}
