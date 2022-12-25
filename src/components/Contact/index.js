@@ -87,7 +87,7 @@ const Contact = () => {
           <br/>
           Noida,UP
           <br/>
-          <span>Himanshuchhatw03@gmail.com</span>
+          <span>Himanshuchhatwal03@gmail.com</span>
         </div>
         <div className="map-wrap">
           <MapContainer center={[28.5779959,77.343917]} zoom={13}>
