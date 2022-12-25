@@ -1,0 +1,57 @@
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.9);
+  transition: 0.3s;
+  margin-top: 4vw;
+
+}
+
+.project_slider{
+  padding-bottom: 5vw;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.card .img{
+  padding-left: 38%;
+  padding-top: 10px;
+}
+
+.card .text_card{
+  display: flex;
+  justify-content: center;
+  font-size: 25px;
+  font-family: 'La Belle Aurore';
+}
+
+.link_toproject span{
+  color: #ffd700;
+}
+
+.link_toproject {
+  text-decoration: none;
+}
+img{
+  width: 100px;
+  height: 80px; 
+}
+
+.text-zone{
+  color: white;
+  font-family: sans-serif;
+}
+.text-zone h2 a{
+   text-decoration: none ;
+   color: black ;
+}
+.text-zone h2 a:hover{
+  color: rebeccapurple;
+}
+
+.img_bg img{
+  height: 50vw;
+  width: 44vw;
+  margin-left: 60vw;
+}
