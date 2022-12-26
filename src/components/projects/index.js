@@ -35,10 +35,10 @@ const Projects = () => {
     return(
         
         <>
-        <div className="img_bg">
-            <img src={Bg} alt='bulb'/>
-        </div>
             <div className="container project-page">
+            <div className="img_bg">
+            <img src={Bg} alt='bulb'/>
+            </div>
                 <div className="text-zone">
                     <h1>
                         <AnimatedLetters
