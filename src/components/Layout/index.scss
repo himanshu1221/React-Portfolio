@@ -314,3 +314,36 @@
         }
     }
 }
+
+@media screen and (max-width:960px) {
+    .about-page .text-zone{
+      width: 70%;
+      word-wrap: break-word;
+    }
+    h1{
+
+        &::before{
+            content: "<h1/>";
+            font-family: "La Belle Aurore";
+            color: #ffd700;
+            font-size: 20px;
+            position: unset;
+            margin-top: 0vw;
+            margin-left: 3vw;
+            animation: fadeIn 1s 1.7s backwards;
+            opacity: 0.6;
+        }
+        &::after{
+            content: "</h1>";
+            font-family: "La Belle Aurore";
+            font-size: 10px;
+            position: absolute;
+            margin-left: 20px;
+            bottom: 38vw;
+            left: 36vw;
+            opacity: 0.6;
+            font-size: 16px;
+            line-height: 18px;
+        }
+    }
+  }

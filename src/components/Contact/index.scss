@@ -83,11 +83,17 @@
     animation: fadeIn 1s 1.5s;
     animation-fill-mode: forwards;
 
+    .Main-Gmail{
+        display: none;
+    }
+
     span{
         font-size: 16px;
         display: block;
         padding-top: 20px;
         color: #ffd700;
+
+
     }
 }
 
@@ -108,14 +114,41 @@
 }
 
 @media screen and (max-width:1240px){
-    .info-map{
+    .contact-page .info-map{
         width: 10%;
+        height: 80px;
+        top: 88%;
     }
+    .contact-page .map-wrap{
+        display: none;
+    }
+
+    .info-map .Main-Gmail{
+        display: block;
+        text-decoration: none;
+        font-family: sans-serif;
+        color: #ffd700;
+    }
+
     .info-map span{
         word-wrap: break-word;
+        display: none;
     }
-}
 
-.text-zone{
-    margin-top: 20px;
+    .contact-page .info-map{
+        font-size: 10px;
+    }
+
+
+    .contact-page .text-zone h1{
+        font-size: 20px;
+    }
+
+    .contact-page .text-zone p{
+        width: 220%;
+    }
+
+    .contact-form{
+        width: 215%;
+    }
 }

@@ -88,6 +88,7 @@ const Contact = () => {
           Noida,UP
           <br/>
           <span>Himanshuchhatwal03@gmail.com</span>
+          <a className='Main-Gmail' href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=hmanshuchhatwal03@gmail.com" target="_blank">My Gmail</a>
         </div>
         <div className="map-wrap">
           <MapContainer center={[28.5779959,77.343917]} zoom={13}>

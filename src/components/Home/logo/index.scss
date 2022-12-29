@@ -24,3 +24,13 @@
     }
 }
 
+@media screen and (max-width:960px) {
+    .logo-container{
+        left: 50vw;
+    }
+    .logo-container img{
+        height: 34vw;
+        width: 38vw;
+    }
+}
+

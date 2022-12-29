@@ -79,3 +79,20 @@
     transform: rotateX(90deg);
   }
 }
+
+@media screen and (max-width:960px) {
+  .about-page .text-zone h1{
+    font-size: 30px;
+  }
+
+  .stage-cube-cont {
+    opacity: 0;
+  .cubespinner{
+    opacity: 0;
+  }
+  
+  }
+  .container .about-page .text-zone{
+    width: 100%;
+  }
+}

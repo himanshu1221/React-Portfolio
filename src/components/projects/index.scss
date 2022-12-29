@@ -55,3 +55,9 @@ img{
   width: 44vw;
   margin-left: 60vw;
 }
+
+@media screen and (max-width:960px) {
+  .project-page .text-zone h1{
+    font-size: 20px;
+  }
+}

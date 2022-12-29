@@ -23,3 +23,9 @@
          animation-delay: #{$i / 10}s;
     }
 }
+
+@media screen and (max-width:960px) {
+    .text-animate-hover{
+        min-width: 0px;
+    }
+}
